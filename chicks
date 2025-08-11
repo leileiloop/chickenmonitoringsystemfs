@@ -1,10 +1,11 @@
-from flask import Flask, redirect
-
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return redirect("https://chickenmonitoringsystem.tail1f019a.ts.net/", code=302)
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content="0; URL='https://chickenmonitoringsystem.tail1f019a.ts.net/'" />
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>If you are not redirected automatically, click <a href="https://chickenmonitoringsystem.tail1f019a.ts.net/">here</a>.</p>
+</body>
+</html>
